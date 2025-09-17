@@ -1,1 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand defaults */
+:root {
+  --rs-gold: #CBA135;
+}
+
+a { @apply underline-offset-2 hover:underline; }
 
