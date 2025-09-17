@@ -2,10 +2,11 @@ export const metadata = { title: "Suites & Apartments | Reserved Suites Illovo" 
 
 export default function SuitesIndex() {
   const suites = [
-    { slug: "studio", name: "Studio" },
+    { slug: "queen-room", name: "Queen Room" },
+    { slug: "deluxe-studio", name: "Deluxe Studio" },
     { slug: "one-bedroom", name: "One-Bedroom" },
     { slug: "two-bedroom", name: "Two-Bedroom" },
-    { slug: "three-bedroom", name: "Three-Bedroom" },
+    
   ];
   return (
     <main className="mx-auto max-w-7xl px-4 py-10">
